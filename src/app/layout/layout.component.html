@@ -1,0 +1,29 @@
+<div class="layout">
+  <!-- @if(triggered){
+  <div class="sidenav">
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+
+  } -->
+  <div [ngClass]="classSidenav">
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+
+  <div class="main-page">
+    <input
+      type="checkbox"
+      name="trigger"
+      [checked]="triggered"
+      (change)="toggle()"
+    />
+    <router-outlet />
+  </div>
+</div>
