@@ -18,6 +18,16 @@
       li {
         margin: 10px;
         list-style: none;
+        a {
+          text-decoration: none;
+          color: black;
+          &:visited {
+            color: rgb(41, 41, 41);
+          }
+          &:hover {
+            color: rgb(92, 91, 91);
+          }
+        }
       }
     }
   }

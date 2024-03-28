@@ -16,10 +16,11 @@
     </button>
     @if(triggered){
     <ul>
-      <li>Home</li>
-      <li>About</li>
-      <li>Contact</li>
+      <li><a [routerLink]="['nassime']">Nassime</a></li>
+      <li><a [routerLink]="['marie']">Marie</a></li>
+      <li><a [routerLink]="['adam']">Adam</a></li>
     </ul>
+
     }@else {
     <ul>
       <li>

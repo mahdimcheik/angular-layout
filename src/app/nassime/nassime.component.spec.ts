@@ -8,10 +8,9 @@ describe('NassimeComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [NassimeComponent]
-    })
-    .compileComponents();
-    
+      imports: [NassimeComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(NassimeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
