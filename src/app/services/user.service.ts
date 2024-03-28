@@ -9,5 +9,6 @@ export class UserService {
     'Adam is the best coder',
     'Nassime is the best',
   ];
+  mode: boolean = true;
   constructor() {}
 }

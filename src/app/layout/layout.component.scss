@@ -8,7 +8,7 @@
   .sidenav {
     height: 100%;
     background-color: red;
-    transition: all 0.2s ease-out;
+    transition: all 0.5s ease-out;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -34,9 +34,10 @@
 
   .on {
     width: 200px;
+    transition: all 0.5s ease-out;
   }
   .off {
-    // width: 30px;
+    transition: all 0.5s ease-out;
   }
   .menu {
     color: green;

@@ -1,8 +1,9 @@
-<p>generic-user-page works!</p>
-<p>{{ description }}</p>
-@for (userr of userService.users; track $index) {
-<p>{{ userr }}</p>
-}
-<br />
-<p>user from init</p>
-<p>{{ user }}</p>
+<div class="margin-around">
+  <p>user from init {{ id }}</p>
+  <p>{{ user }}</p>
+</div>
+
+<div>
+  <p>{{ mode ? "true" : "false" }}</p>
+  <button (click)="toggleMode()">toggle mode</button>
+</div>

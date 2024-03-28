@@ -1,19 +1,13 @@
 import { Routes } from '@angular/router';
-import { NassimeComponent } from './nassime/nassime.component';
-import { AdamComponent } from './adam/adam.component';
-import { MarieComponent } from './marie/marie.component';
+import { GenericUserPageComponent } from './generic-user-page/generic-user-page.component';
 
 export const routes: Routes = [
   {
-    path: 'nassime',
-    component: NassimeComponent,
+    path: 'user/:id',
+    component: GenericUserPageComponent,
   },
   {
-    path: 'adam',
-    component: AdamComponent,
-  },
-  {
-    path: 'marie',
-    component: MarieComponent,
+    path: 'user',
+    component: GenericUserPageComponent,
   },
 ];
